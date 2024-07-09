@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "720p Resizer",
+  "version": "1.0",
+  "description": "Adds a button to resize the window to 1280x720",
+  "permissions": [
+    "windows"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": "icon.png",
+    "default_title": "720p"
+  }
+}
